@@ -7,5 +7,73 @@
 * {
     margin: 0%;
     padding: 0%;
-    background-color: black;
 }
+/* Start Header Styles */
+header {
+    background-color: #000000;
+    padding: 20px 0px;
+}
+.top-header {
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.img-logo {
+    width: 100%;
+}
+.top-header li {   
+    list-style: none;
+    margin-left: 40px;
+    font-size: 1.20rem;
+    line-height: 28px;
+}
+.top-header > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-header li a {
+    font-family: Abril Fatface;
+    color: #fff;
+    text-decoration: none;
+}
+.top-header li a:hover{
+    color: #48A9A6;
+}
+/* End Header Styles */
+/* Start Benner Section */
+.bannner {
+    max-width: 1250px;
+    margin: auto;
+    padding: 200px 0px;
+    background-image: url(Images/banner-image.jpg);
+    background-size: cover;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+}
+.banner-title {
+    color: #FFF;
+    font-family: Abril Fatface;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.banner-description {
+    color: #FFF;
+    font-family: work sans;
+    font-size: 1.10rem;
+    font-weight: 400;
+    padding: 10px 220px;
+}
+.register {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 500px;
+    background-color: #000000;
+}
+
+
+/* End Benner Section */ 
