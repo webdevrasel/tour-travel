@@ -1,0 +1,11 @@
+/* Work Sans and Abril Fatface font from Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Work+Sans:ital,wght@0,600;1,400&display=swap');
+
+/* Shared Styles */
+
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
