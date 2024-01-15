@@ -2,12 +2,50 @@
 /* Mobile devices */
 @media screen and (max-width: 576px) {
     header {
-        padding: 30px 20px;
+        padding: 10px 20px;
     }
     .top-header {
         flex-direction: column;
     }
+    .top-header li {   
+        list-style: none;
+        margin-left: 4px;
+        font-size: 1rem;
+    }
     .img-logo {
         width: 50%;
     }
+    /* Responsive Benner Section */
+    .bannner {
+        padding: 50px 20px;
+        border-radius: 0px 0px 5px 5px;
+    }
+    .banner-title {
+        font-size: 3rem;
+    }
+    .banner-description {
+        color: #FFF;
+        font-size: 1rem;
+        padding: 20px 20px;
+    }
+    /* Responsive Benner end */
+    /* Responsive Our Popular Tours Section Starts Here */
+.tours-section {
+    padding: 40px 20px;
+    flex-direction: column;
+}
+.content-column {
+    width: 100%;
+    padding: 0%;
+}
+.tours-title {
+    font-size: 2.50rem;
+}
+.img-column {
+    margin-top: 30px;
+    width: 100%;
+    padding: 0%;
+}
+/* Responsive Our Popular Tours Section End Here */
+
 }

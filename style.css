@@ -2,8 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Work+Sans:ital,wght@0,600;1,400&display=swap');
 
-/* Shared Styles */
-
+/* Start Shared Styles */
+.btn-primary {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.10rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    background-color: #48A9A6;
+}
+/* End Shared Styles */
 * {
     margin: 0%;
     padding: 0%;
@@ -71,9 +81,47 @@ header {
     justify-content: center;
     align-items: center;
     padding: 30px;
-    width: 500px;
     background-color: #000000;
 }
+/* End Benner Section */
+/* Our Popular Tours Section Starts Here */ 
+.tours-section {
+    max-width: 1250px;
+    padding: 80px 0px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.content-column {
+    width: 50%;
+    padding-right: 40px;
+}
 
+.tours-title {
+    color: #48A9A6;
+    font-family: Abril Fatface;
+    font-size: 3.30rem;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+.tours-text {
+    padding-top: 10px;
+    color:#414042;
+    font-family: work sans;
+    font-size: 16px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 400;
+}
+.btn-primary, top {
+    margin-top: 40px;
+}
+.img-column {
+    width: 50%;
+    padding-left: 40px;
+}
+.tours-img {
+    width: 100%;
+}
 
-/* End Benner Section */ 
+/* Our Popular Tours Section Ends Here */ 
