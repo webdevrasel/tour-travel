@@ -3,7 +3,9 @@
 @media screen and (max-width: 576px) {
     header {
         padding: 10px 20px;
+        margin-bottom: 30px;
     }
+
     .top-header {
         flex-direction: column;
         align-items: center;
@@ -191,7 +193,7 @@
 }
 .save-box {
     transform: rotate(-20deg);
-    width: 50%;
+    width: 65%;
     padding: 20px 20px; 
 }
 .save-text {
@@ -203,4 +205,6 @@
     font-size: 1rem;
     }
 /* Responsive Newsletter Section End Here */
+/* Responsive Footer Section Start Here */
+/* Responsive Footer Section End Here */
 }

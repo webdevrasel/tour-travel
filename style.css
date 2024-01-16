@@ -22,7 +22,7 @@
 header {
     background-color: #1A0A30;
     padding: 20px 0px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 .top-header {
     max-width: 1250px;
@@ -395,3 +395,41 @@ header {
     line-height: normal;
     }
 /* Newsletter Section End Here */
+/* Footer Section Start Here */
+.footer-section {
+    padding: 80px 0px;
+    background-color: #1A0A30;
+}
+.footer-content {
+    max-width: 800px;
+    margin: auto;
+}
+.footer-img-box {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo {
+    width: 30%;
+    align-content: center;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+
+}
+.icon, i {
+    color: #f4fdff;
+    margin: 5px 10px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.footer-text {
+    color: #fff;
+    font-family: work sans;
+    font-size: 1rem;
+    line-height: normal;
+    padding: 30px 0px;
+    text-align: center;
+}
+/* Footer Section End Here */
