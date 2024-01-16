@@ -12,8 +12,9 @@
     }
     .top-header li {   
         list-style: none;
-        margin-left: 4px;
+        margin-left: 30px;
         font-size: 1rem;
+        padding-top: 20px;
     }ADD
     .img-logo {
         width: 50%;
@@ -21,7 +22,7 @@
     /* Responsive Benner Section */
     .bannner {
         padding: 50px 20px;
-        border-radius: 0px 0px 5px 5px;
+        border-radius: 10px 10px 10px 10px;
     }
     .banner-title {
         font-size: 3rem;
@@ -206,5 +207,15 @@
     }
 /* Responsive Newsletter Section End Here */
 /* Responsive Footer Section Start Here */
+.footer-logo {
+    width: 50%;
+}
+.footer-section {
+    padding: 40px 20px;
+}
+.icon, i {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
 /* Responsive Footer Section End Here */
 }
