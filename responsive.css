@@ -163,7 +163,44 @@
     margin: 0px;
     padding: 0px;
 }
-
 /* Responsive Why Choose Us Section End Here */
-
+/* Responsive Newsletter Section End Here */
+.section-3 {
+    padding: 40px 20px;
+}
+.newsletter-column {
+    margin: 0px 0px;
+    flex-direction: column;
+}
+.wrapper {
+    width: 100%;
+    padding: 30px 20px;
+    margin-right: 0px;
+    box-sizing: border-box;
+}
+.newsletter-title {
+    font-size: 2rem;
+}
+.travel-image {
+    width: 100%;
+    margin-left: 0px;
+    background-size: cover;
+    padding: 100px 50px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.save-box {
+    transform: rotate(-20deg);
+    width: 50%;
+    padding: 20px 20px; 
+}
+.save-text {
+    font-size: 14px;
+    padding: 10px 0px;
+}
+.save-title {
+    letter-spacing: 1px;
+    font-size: 1rem;
+    }
+/* Responsive Newsletter Section End Here */
 }
