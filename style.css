@@ -77,14 +77,43 @@ header {
     font-weight: 400;
     padding: 10px 220px;
 }
-.register {
+.input-box-1 {
+    max-width: 800px;
+    padding: 30px 30px;
+    border-radius: 10px;
     display: flex;
-    margin: auto;
     justify-content: center;
-    align-items: center;
-    padding: 30px;
-    background-color: #ffffff68;
+    background-color: #ffffff8e;
+    margin: auto;
 }
+.name {
+    width: 25%;
+    font-family: work sans;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 10px;
+}
+.payment {
+    padding-left: 10px;
+    width: 25%;
+    font-family: work sans;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 10px;
+}
+.btn-submit {
+    width: 25%;
+    font-family: work sans;
+    border: none;
+    border-radius: 10px;
+    color: #FFF;
+    background-color: #48A9A6;
+    margin-right: 10px;
+}
+
 /* End Benner Section */
 /* Our Popular Tours Section Starts Here */ 
 .tours-section {
@@ -434,3 +463,26 @@ header {
     text-align: center;
 }
 /* Footer Section End Here */
+/* community Section start Here */
+.community-section {
+    background-image: url(Images/homepicture-1200px_1-min.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .community {
+    max-width: 1250px;
+  }
+  .banner-title {
+    text-align: center;
+    letter-spacing: 2;
+    line-height: 4rem;
+  }
+  .banner-description {
+    text-align: center;
+  }
+/* community Section End Here */

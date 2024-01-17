@@ -32,6 +32,25 @@
         font-size: 1rem;
         padding: 20px 20px;
     }
+    .input-box-1 {
+        flex-direction: column;
+
+    }
+    .name {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 15px 10px;
+        margin-bottom: 10px;
+    }
+    .payment {
+        width: 100%;
+        padding: 15px 10px;
+        margin-bottom: 10px;
+    }
+    .btn-submit {
+        width: 100%;
+        padding: 15px 10px;
+    }
     /* Responsive Benner end */
     /* Responsive Our Popular Tours Section Starts Here */
 .tours-section {
@@ -218,4 +237,10 @@
     margin-bottom: 15px;
 }
 /* Responsive Footer Section End Here */
+/* Responsive community Section Start Here */
+.community-section {
+    height: 65vh;
+  }
+/* Responsive community Section End Here */
+
 }
